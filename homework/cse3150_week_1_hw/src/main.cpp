@@ -5,9 +5,11 @@
 int main() {
     using std::cout;
     using std::endl;
-    cout << AdvancedMath::square(5) << endl;
-    cout << MathUtils::multiply(3, 10) << endl;
-    cout << MathUtils::add(3, 5) << endl;
+    int a = 3, b = 4;
+
+    cout << "a" << " + " << "b" << " = " << MathUtils::add(a,b) << endl;
+    cout << "a" << " * " << "b" << " = " << MathUtils::multiply(a,b) << endl;
+    cout << "square(a)" << " = " << AdvancedMath::square(a) << endl;
 
     return 0;
 }
